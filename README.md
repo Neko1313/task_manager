@@ -49,7 +49,7 @@ npm start
 - statistics - Создание графиков - :8004
 - working_data - Сохранение промежуточных данных - :8003
 
-# Доболнительно
+# Доп. информация
 Графики сейчас хранять в bytea в postgresql 
 В таблицы :
 ```
@@ -64,8 +64,8 @@ CREATE TABLE AccessDates (
 ```
 docker-compose up
 ```
-Скрипт python 
-```
+Скрипт `python`
+```Python
 import psycopg2
 create_table_query = """
 CREATE TABLE AccessDates (
