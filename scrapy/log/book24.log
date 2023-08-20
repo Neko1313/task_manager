@@ -1,0 +1,2484 @@
+2023-08-16 21:40:05 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 21:40:05 [scrapy.extensions.telnet] INFO: Telnet Password: a513b96583e757ea
+2023-08-16 21:40:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 21:40:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 21:40:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 21:40:05 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 21:40:05 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 21:40:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 21:40:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 21:40:08 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 21:40:08 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 21:40:08 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100462,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.433036,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 11, 40, 8, 653311),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65236992,
+ 'memusage/startup': 65236992,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 11, 40, 5, 220275)}
+2023-08-16 21:40:08 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 22:10:24 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 22:10:24 [scrapy.extensions.telnet] INFO: Telnet Password: 01a40636831fa247
+2023-08-16 22:10:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 22:10:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 22:10:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 22:10:24 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 22:10:24 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 22:10:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 22:10:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 22:10:29 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 22:10:29 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 22:10:29 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100466,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.887326,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 12, 10, 29, 282173),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65245184,
+ 'memusage/startup': 65245184,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 12, 10, 24, 394847)}
+2023-08-16 22:10:29 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 22:11:39 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 22:11:39 [scrapy.extensions.telnet] INFO: Telnet Password: 0a4b048ce3184682
+2023-08-16 22:11:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 22:11:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 22:11:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 22:11:39 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 22:11:39 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 22:11:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 22:11:39 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 22:11:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 22:11:45 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 22:11:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100462,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 6.231846,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 12, 11, 45, 337038),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65277952,
+ 'memusage/startup': 65277952,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 12, 11, 39, 105192)}
+2023-08-16 22:11:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 22:13:56 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 22:13:56 [scrapy.extensions.telnet] INFO: Telnet Password: a573057d65ab062e
+2023-08-16 22:13:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 22:13:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 22:13:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 22:13:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 22:13:56 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 22:13:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 22:13:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 22:14:02 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 22:14:02 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 22:14:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100473,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 6.051754,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 12, 14, 2, 605605),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65298432,
+ 'memusage/startup': 65298432,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 12, 13, 56, 553851)}
+2023-08-16 22:14:02 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 22:14:29 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 22:14:29 [scrapy.extensions.telnet] INFO: Telnet Password: aa5f56bdd2d12e26
+2023-08-16 22:14:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 22:14:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 22:14:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 22:14:29 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 22:14:29 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 22:14:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 22:14:29 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 22:14:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 22:14:40 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 22:14:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100463,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 10.628022,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 12, 14, 40, 443451),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65286144,
+ 'memusage/startup': 65286144,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 12, 14, 29, 815429)}
+2023-08-16 22:14:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:10:14 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:10:14 [scrapy.extensions.telnet] INFO: Telnet Password: ab151d2794d4092c
+2023-08-16 23:10:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:10:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:10:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:10:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:10:14 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:10:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:10:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:10:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:10:18 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:10:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100466,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.80397,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 10, 18, 525572),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65277952,
+ 'memusage/startup': 65277952,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 10, 14, 721602)}
+2023-08-16 23:10:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:10:33 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:10:33 [scrapy.extensions.telnet] INFO: Telnet Password: d6bd4f64a15dc0f0
+2023-08-16 23:10:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:10:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:10:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:10:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:10:33 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:10:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:10:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:10:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:10:37 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:10:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100456,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.0808,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 10, 37, 365667),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65298432,
+ 'memusage/startup': 65298432,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 10, 33, 284867)}
+2023-08-16 23:10:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:54:13 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:54:13 [scrapy.extensions.telnet] INFO: Telnet Password: 06cbef7157627e80
+2023-08-16 23:54:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:54:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:54:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:54:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:54:13 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:54:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:54:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:54:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:54:18 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:54:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100464,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.396801,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 54, 18, 13702),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65118208,
+ 'memusage/startup': 65118208,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 54, 13, 616901)}
+2023-08-16 23:54:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:55:41 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:55:41 [scrapy.extensions.telnet] INFO: Telnet Password: f8a6b2300439e325
+2023-08-16 23:55:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:55:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:55:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:55:41 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:55:41 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:55:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:55:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:55:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:55:45 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:55:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100468,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.690661,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 55, 45, 152556),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65179648,
+ 'memusage/startup': 65179648,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 55, 41, 461895)}
+2023-08-16 23:55:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:56:03 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:56:03 [scrapy.extensions.telnet] INFO: Telnet Password: 4dc6a9cae52d5106
+2023-08-16 23:56:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:56:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:56:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:56:03 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:56:03 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:56:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:56:03 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:56:08 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:56:08 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:56:08 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100459,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 5.016884,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 56, 8, 793333),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65282048,
+ 'memusage/startup': 65282048,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 56, 3, 776449)}
+2023-08-16 23:56:08 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:56:31 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:56:31 [scrapy.extensions.telnet] INFO: Telnet Password: 9594e1b53a986411
+2023-08-16 23:56:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:56:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:56:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:56:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:56:31 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:56:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:56:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:56:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:56:36 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:56:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100465,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 5.684866,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 56, 36, 793708),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65310720,
+ 'memusage/startup': 65310720,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 56, 31, 108842)}
+2023-08-16 23:56:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:57:01 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:57:01 [scrapy.extensions.telnet] INFO: Telnet Password: be48590343841a1b
+2023-08-16 23:57:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:57:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:57:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:57:01 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:57:01 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:57:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:57:01 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:57:05 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:57:05 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:57:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100458,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.998283,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 57, 5, 788487),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65241088,
+ 'memusage/startup': 65241088,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 57, 1, 790204)}
+2023-08-16 23:57:05 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-16 23:58:23 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-16 23:58:23 [scrapy.extensions.telnet] INFO: Telnet Password: 42e28bcea0673ea3
+2023-08-16 23:58:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-16 23:58:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-16 23:58:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-16 23:58:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-16 23:58:23 [scrapy.core.engine] INFO: Spider opened
+2023-08-16 23:58:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-16 23:58:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-16 23:58:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-16 23:58:27 [book_24] INFO: Паук завершил работу успешно
+2023-08-16 23:58:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100462,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.991788,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 13, 58, 27, 401293),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65331200,
+ 'memusage/startup': 65331200,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 13, 58, 23, 409505)}
+2023-08-16 23:58:27 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:00:40 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:00:40 [scrapy.extensions.telnet] INFO: Telnet Password: 9d8caf8550c9c59c
+2023-08-17 00:00:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:00:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:00:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:00:40 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:00:40 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:00:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:00:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:00:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:00:45 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:00:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100457,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.09834,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 0, 45, 43530),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65269760,
+ 'memusage/startup': 65269760,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 0, 40, 945190)}
+2023-08-17 00:00:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:02:56 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:02:56 [scrapy.extensions.telnet] INFO: Telnet Password: 4bea92381a4eb790
+2023-08-17 00:02:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:02:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:02:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:02:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:02:56 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:02:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:02:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:03:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:03:00 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:03:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100463,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.277089,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 3, 0, 921209),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65302528,
+ 'memusage/startup': 65302528,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 2, 56, 644120)}
+2023-08-17 00:03:00 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:04:06 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:04:06 [scrapy.extensions.telnet] INFO: Telnet Password: 814a834664adb24d
+2023-08-17 00:04:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:04:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:04:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:04:06 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:04:06 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:04:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:04:06 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:04:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:04:10 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:04:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100462,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.779733,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 4, 10, 6592),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65228800,
+ 'memusage/startup': 65228800,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 4, 6, 226859)}
+2023-08-17 00:04:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:05:52 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:05:52 [scrapy.extensions.telnet] INFO: Telnet Password: 91c7b0b9ce50dbe4
+2023-08-17 00:05:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:05:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:05:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:05:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:05:52 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:05:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:05:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:05:57 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:05:57 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:05:57 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100463,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.945085,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 5, 57, 843798),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65294336,
+ 'memusage/startup': 65294336,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 5, 52, 898713)}
+2023-08-17 00:05:57 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:14:33 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:14:33 [scrapy.extensions.telnet] INFO: Telnet Password: dd5cf8f7c25da4e0
+2023-08-17 00:14:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:14:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:14:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:14:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:14:33 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:14:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:14:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:14:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:14:37 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:14:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100459,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.789069,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 14, 37, 452663),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65318912,
+ 'memusage/startup': 65318912,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 14, 33, 663594)}
+2023-08-17 00:14:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 00:57:28 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 00:57:28 [scrapy.extensions.telnet] INFO: Telnet Password: dc67ce51980c7ca4
+2023-08-17 00:57:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 00:57:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 00:57:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 00:57:28 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 00:57:28 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 00:57:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 00:57:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 00:57:32 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 00:57:32 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 00:57:32 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100462,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 3.830441,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 14, 57, 32, 305261),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65318912,
+ 'memusage/startup': 65318912,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 14, 57, 28, 474820)}
+2023-08-17 00:57:32 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 01:00:41 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 01:00:41 [scrapy.extensions.telnet] INFO: Telnet Password: f53e34220d84cd01
+2023-08-17 01:00:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 01:00:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 01:00:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 01:00:41 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 01:00:41 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 01:00:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 01:00:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 01:00:41 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/core/engine.py", line 180, in _next_request
+    request = next(self.slot.start_requests)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/neko/Desktop/task_manage_test/scrapy/./photo/book24.py", line 40, in start_requests
+    url="https://book24.ru/search/?q={}".format(self.isbn_list[self.page_count][1]),
+                                                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+2023-08-17 01:00:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 01:00:41 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 01:00:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.00387,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 15, 0, 41, 182863),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65630208,
+ 'memusage/startup': 65630208,
+ 'start_time': datetime.datetime(2023, 8, 16, 15, 0, 41, 178993)}
+2023-08-17 01:00:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 01:01:58 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 01:01:58 [scrapy.extensions.telnet] INFO: Telnet Password: e68278f3c7113d50
+2023-08-17 01:01:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 01:01:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 01:01:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 01:01:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 01:01:59 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 01:01:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 01:01:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 01:02:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 01:02:04 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 01:02:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100458,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 5.464456,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 15, 2, 4, 575623),
+ 'httpcompression/response_bytes': 297359,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65536000,
+ 'memusage/startup': 65536000,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 15, 1, 59, 111167)}
+2023-08-17 01:02:04 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-17 01:05:16 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-17 01:05:16 [scrapy.extensions.telnet] INFO: Telnet Password: 6052725fe2c28f5c
+2023-08-17 01:05:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-17 01:05:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-17 01:05:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-17 01:05:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-17 01:05:16 [scrapy.core.engine] INFO: Spider opened
+2023-08-17 01:05:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-17 01:05:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-17 01:05:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-17 01:05:21 [book_24] INFO: Паук завершил работу успешно
+2023-08-17 01:05:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3571,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 100458,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 5.010182,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 16, 15, 5, 21, 816074),
+ 'httpcompression/response_bytes': 297360,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65294336,
+ 'memusage/startup': 65294336,
+ 'request_depth_max': 4,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 16, 15, 5, 16, 805892)}
+2023-08-17 01:05:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 04:14:01 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 04:14:01 [scrapy.extensions.telnet] INFO: Telnet Password: 98c86a344286267e
+2023-08-19 04:14:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 04:14:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 04:14:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 04:14:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 04:14:02 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 04:14:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:14:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 04:15:02 [scrapy.extensions.logstats] INFO: Crawled 121 pages (at 121 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:16:02 [scrapy.extensions.logstats] INFO: Crawled 204 pages (at 83 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:16:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 04:16:28 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 04:16:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 145074,
+ 'downloader/request_count': 239,
+ 'downloader/request_method_count/GET': 239,
+ 'downloader/response_bytes': 4086603,
+ 'downloader/response_count': 239,
+ 'downloader/response_status_count/200': 239,
+ 'elapsed_time_seconds': 146.075564,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 18, 18, 16, 28, 223594),
+ 'httpcompression/response_bytes': 12423023,
+ 'httpcompression/response_count': 239,
+ 'log_count/INFO': 13,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 89423872,
+ 'memusage/startup': 86159360,
+ 'request_depth_max': 181,
+ 'response_received_count': 239,
+ 'scheduler/dequeued': 239,
+ 'scheduler/dequeued/memory': 239,
+ 'scheduler/enqueued': 239,
+ 'scheduler/enqueued/memory': 239,
+ 'start_time': datetime.datetime(2023, 8, 18, 18, 14, 2, 148030)}
+2023-08-19 04:16:28 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 04:29:56 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 04:29:56 [scrapy.extensions.telnet] INFO: Telnet Password: c1e1314e508b1ff9
+2023-08-19 04:29:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 04:29:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 04:29:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 04:29:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 04:29:56 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 04:29:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:29:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 04:29:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 04:29:58 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 04:29:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14684,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.311384,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 18, 18, 29, 58, 260030),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76513280,
+ 'memusage/startup': 76513280,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 18, 18, 29, 56, 948646)}
+2023-08-19 04:29:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 04:38:13 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 04:38:13 [scrapy.extensions.telnet] INFO: Telnet Password: 120d1cce1aa7103a
+2023-08-19 04:38:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 04:38:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 04:38:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 04:38:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 04:38:13 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 04:38:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:38:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 04:38:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 04:38:14 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 04:38:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14679,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.211821,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 18, 18, 38, 14, 904471),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76451840,
+ 'memusage/startup': 76451840,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 18, 18, 38, 13, 692650)}
+2023-08-19 04:38:14 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 04:43:37 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 04:43:37 [scrapy.extensions.telnet] INFO: Telnet Password: e341a0a6b008323a
+2023-08-19 04:43:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 04:43:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 04:43:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 04:43:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 04:43:38 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 04:43:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 04:43:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 04:43:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 04:43:39 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 04:43:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14683,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.216929,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 18, 18, 43, 39, 244831),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76115968,
+ 'memusage/startup': 76115968,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 18, 18, 43, 38, 27902)}
+2023-08-19 04:43:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 14:48:12 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 14:48:12 [scrapy.extensions.telnet] INFO: Telnet Password: fbdbdaa6d3495632
+2023-08-19 14:48:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 14:48:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 14:48:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 14:48:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 14:48:13 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 14:48:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 14:48:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 14:48:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 14:48:14 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 14:48:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14686,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.460196,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 4, 48, 14, 523420),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76660736,
+ 'memusage/startup': 76660736,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 19, 4, 48, 13, 63224)}
+2023-08-19 14:48:15 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 14:56:22 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 14:56:22 [scrapy.extensions.telnet] INFO: Telnet Password: 85ca397d6afb915a
+2023-08-19 14:56:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 14:56:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 14:56:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 14:56:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 14:56:22 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 14:56:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 14:56:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 14:56:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 14:56:24 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 14:56:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14683,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.276772,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 4, 56, 24, 17513),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76464128,
+ 'memusage/startup': 76464128,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 19, 4, 56, 22, 740741)}
+2023-08-19 14:56:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:01:10 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:01:10 [scrapy.extensions.telnet] INFO: Telnet Password: 521854d690d47781
+2023-08-19 15:01:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:01:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:01:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:01:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:01:10 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:01:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:01:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:01:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:01:11 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:01:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14683,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.981298,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 1, 11, 862655),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76460032,
+ 'memusage/startup': 76460032,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 1, 10, 881357)}
+2023-08-19 15:01:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:02:20 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:02:20 [scrapy.extensions.telnet] INFO: Telnet Password: 008356ecf334a709
+2023-08-19 15:02:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:02:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:02:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:02:20 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:02:20 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:02:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:02:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:02:22 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:02:22 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:02:22 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1102,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 29254,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.995983,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 2, 22, 212693),
+ 'httpcompression/response_bytes': 80750,
+ 'httpcompression/response_count': 2,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76705792,
+ 'memusage/startup': 76705792,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 2, 20, 216710)}
+2023-08-19 15:02:22 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:07:39 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:07:39 [scrapy.extensions.telnet] INFO: Telnet Password: 70772a5e2a82b676
+2023-08-19 15:07:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:07:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:07:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:07:40 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:07:40 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:07:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:07:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:07:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:07:41 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:07:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14686,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.200106,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 7, 41, 323686),
+ 'httpcompression/response_bytes': 40375,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76378112,
+ 'memusage/startup': 76378112,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 7, 40, 123580)}
+2023-08-19 15:07:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:08:22 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:08:22 [scrapy.extensions.telnet] INFO: Telnet Password: ba22605cf1200771
+2023-08-19 15:08:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:08:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:08:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:08:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:08:22 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:08:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:08:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:08:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:08:24 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:08:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1102,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 29250,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.556482,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 8, 24, 453372),
+ 'httpcompression/response_bytes': 80750,
+ 'httpcompression/response_count': 2,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76759040,
+ 'memusage/startup': 76759040,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 8, 22, 896890)}
+2023-08-19 15:08:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:11:30 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:11:30 [scrapy.extensions.telnet] INFO: Telnet Password: 9ec7e252a096cfc7
+2023-08-19 15:11:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:11:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:11:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:11:30 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:11:30 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:11:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:11:30 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:11:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:11:33 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:11:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1701,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 43814,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 3.505929,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 11, 33, 785767),
+ 'httpcompression/response_bytes': 121125,
+ 'httpcompression/response_count': 3,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76955648,
+ 'memusage/startup': 76955648,
+ 'request_depth_max': 2,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 11, 30, 279838)}
+2023-08-19 15:11:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:12:13 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:12:13 [scrapy.extensions.telnet] INFO: Telnet Password: 553873d81a9846e0
+2023-08-19 15:12:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:12:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:12:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:12:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:12:13 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:12:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:12:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:12:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:12:16 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:12:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2300,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 58380,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 3.068062,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 12, 16, 320002),
+ 'httpcompression/response_bytes': 161500,
+ 'httpcompression/response_count': 4,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76759040,
+ 'memusage/startup': 76759040,
+ 'request_depth_max': 3,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 12, 13, 251940)}
+2023-08-19 15:12:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 15:14:11 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 15:14:11 [scrapy.extensions.telnet] INFO: Telnet Password: ef9d55a9355abeb6
+2023-08-19 15:14:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 15:14:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 15:14:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 15:14:12 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 15:14:12 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 15:14:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 15:14:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 15:14:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 15:14:15 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 15:14:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2899,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 72948,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 3.435004,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 5, 14, 15, 475421),
+ 'httpcompression/response_bytes': 201875,
+ 'httpcompression/response_count': 5,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76582912,
+ 'memusage/startup': 76582912,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 8, 19, 5, 14, 12, 40417)}
+2023-08-19 15:14:15 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 23:29:06 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 23:29:07 [scrapy.extensions.telnet] INFO: Telnet Password: 0b8d3ab06bdeb8a6
+2023-08-19 23:29:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 23:29:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 23:29:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 23:29:07 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 23:29:07 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 23:29:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 23:29:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 23:29:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 23:29:11 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 23:29:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3498,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 87515,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 4.499346,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 13, 29, 11, 723612),
+ 'httpcompression/response_bytes': 242244,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76857344,
+ 'memusage/startup': 76857344,
+ 'request_depth_max': 5,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 19, 13, 29, 7, 224266)}
+2023-08-19 23:29:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 23:41:27 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 23:41:27 [scrapy.extensions.telnet] INFO: Telnet Password: 49b9ddf51ba39947
+2023-08-19 23:41:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 23:41:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 23:41:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 23:41:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 23:41:27 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 23:41:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 23:41:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 23:41:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 23:41:33 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 23:41:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4097,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 102078,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 7,
+ 'elapsed_time_seconds': 5.731749,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 13, 41, 33, 725049),
+ 'httpcompression/response_bytes': 282618,
+ 'httpcompression/response_count': 7,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76599296,
+ 'memusage/startup': 76599296,
+ 'request_depth_max': 6,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2023, 8, 19, 13, 41, 27, 993300)}
+2023-08-19 23:41:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-19 23:43:28 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-19 23:43:28 [scrapy.extensions.telnet] INFO: Telnet Password: 07f32cc359d8c0db
+2023-08-19 23:43:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-19 23:43:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-19 23:43:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-19 23:43:28 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-19 23:43:28 [scrapy.core.engine] INFO: Spider opened
+2023-08-19 23:43:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-19 23:43:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-19 23:43:33 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-19 23:43:33 [book_24] INFO: Паук завершил работу успешно
+2023-08-19 23:43:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4696,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 116641,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'elapsed_time_seconds': 5.478136,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 19, 13, 43, 33, 824092),
+ 'httpcompression/response_bytes': 322992,
+ 'httpcompression/response_count': 8,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76795904,
+ 'memusage/startup': 76795904,
+ 'request_depth_max': 7,
+ 'response_received_count': 8,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'start_time': datetime.datetime(2023, 8, 19, 13, 43, 28, 345956)}
+2023-08-19 23:43:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-20 15:51:15 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-20 15:51:15 [scrapy.extensions.telnet] INFO: Telnet Password: 87b9330c11d953cc
+2023-08-20 15:51:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-20 15:51:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-20 15:51:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-20 15:51:15 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-20 15:51:15 [scrapy.core.engine] INFO: Spider opened
+2023-08-20 15:51:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-20 15:51:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-20 15:52:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-20 15:52:15 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://book24.ru/search/?q=9785950034107> (failed 3 times): DNS lookup failed: no results for hostname lookup: book24.ru.
+2023-08-20 15:52:15 [scrapy.core.scraper] ERROR: Error downloading <GET https://book24.ru/search/?q=9785950034107>
+Traceback (most recent call last):
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/twisted/internet/defer.py", line 1693, in _inlineCallbacks
+    result = context.run(
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/twisted/python/failure.py", line 518, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 54, in process_request
+    return (yield download_func(request=request, spider=spider))
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/twisted/internet/defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "/home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1022, in startConnectionAttempts
+    raise error.DNSLookupError(
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: book24.ru.
+2023-08-20 15:52:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-20 15:52:15 [book_24] INFO: Паук завершил работу успешно
+2023-08-20 15:52:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 3,
+ 'downloader/request_bytes': 1509,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'elapsed_time_seconds': 60.302606,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 20, 5, 52, 15, 683687),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 72122368,
+ 'memusage/startup': 66850816,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/twisted.internet.error.DNSLookupError': 2,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2023, 8, 20, 5, 51, 15, 381081)}
+2023-08-20 15:52:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-20 19:55:52 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-20 19:55:52 [scrapy.extensions.telnet] INFO: Telnet Password: ee59729f14c0d9d5
+2023-08-20 19:55:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-20 19:55:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-20 19:55:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-20 19:55:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-20 19:55:52 [scrapy.core.engine] INFO: Spider opened
+2023-08-20 19:55:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-20 19:55:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-20 19:55:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-20 19:55:53 [book_24] INFO: Паук завершил работу успешно
+2023-08-20 19:55:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 503,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14674,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.232899,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 20, 9, 55, 53, 555248),
+ 'httpcompression/response_bytes': 40374,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 76115968,
+ 'memusage/startup': 76115968,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 20, 9, 55, 52, 322349)}
+2023-08-20 19:55:54 [scrapy.core.engine] INFO: Spider closed (finished)

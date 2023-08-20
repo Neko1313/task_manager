@@ -1,0 +1,190 @@
+2023-08-21 00:20:22 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-21 00:20:22 [scrapy.extensions.telnet] INFO: Telnet Password: 057059b449966aaf
+2023-08-21 00:20:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-21 00:20:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-21 00:20:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-21 00:20:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-21 00:20:22 [scrapy.core.engine] INFO: Spider opened
+2023-08-21 00:20:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-21 00:20:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2023-08-21 00:20:34 [scrapy.spidermiddlewares.urllength] INFO: Ignoring link (url length > 2083): https://book24.ru/search/?q=%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D0%B2%D0%B0%D1%88%D0%B5%D0%BC%D1%83%20%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%8E%20%D0%BE%D0%B4%D0%B8%D0%BD%20%D0%B8%D0%B7%20%D1%8D%D0%BF%D0%B8%D0%B7%D0%BE%D0%B4%D0%BE%D0%B2%20%D1%82%D0%B0%D0%BA%20%D0%BD%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D0%BC%D0%BE%D0%B9%20%22%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9%22%20%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B,%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%BE%D1%88%D0%B5%D0%B4%D1%88%D0%B5%D0%B9%20%D0%B2%201756%20%D0%B3.%20%D0%BD%D0%B0%20%D0%BE%D0%B7%D0%B5%D1%80%D0%B5%20%D0%9E%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%BE%20%D0%B2%20%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%BE%D0%B9%20%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B5.%20%D0%92%20%D1%85%D0%BE%D0%B4%D0%B5%20%D0%BB%D0%B5%D1%82%D0%BD%D0%B5%D0%B9%20%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%201756%20%D0%B3%D0%BE%D0%B4%D0%B0%20%D1%84%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D0%B0%D0%BC%20%D1%83%D0%B4%D0%B0%D0%BB%D0%BE%D1%81%D1%8C%20%D0%B7%D0%B0%D1%85%D0%B2%D0%B0%D1%82%D0%B8%D1%82%D1%8C%20%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9%204-%D1%85%20%D0%BF%D1%83%D1%88%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8C%20%D0%B8%20%D0%BC%D0%BE%D1%89%D0%BD%D1%83%D1%8E%20%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D1%83%D1%8E%20%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%9E%D1%81%D0%B2%D0%B5%D0%B3%D0%BE.%20%D0%A3%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B8%D0%B2%20%D1%83%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F,%20%D0%B7%D0%B0%D1%85%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%20%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D1%83%D1%8E%20%D0%B4%D0%BE%D0%B1%D1%8B%D1%87%D1%83%20%D0%B8%20%D1%81%D0%B5%D0%BC%D1%8C%20%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D1%85%20%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B5%D0%B9,%20%D1%84%D1%80%D0%B0%D0%BD%D1%86%D1%83%D0%B7%D1%8B%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D0%BB%D0%B8%D1%81%D1%8C.%20%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%20%D1%8D%D1%82%D0%B8%D1%85%20%D0%BA%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D1%8B%D1%85%20%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9,%20%D0%B1%D0%BE%D0%B5%D0%B2%D1%8B%D0%B5%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D0%BE%D0%B7%D0%B5%D1%80%D0%B5%20%D0%9E%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%BE%20%D0%BD%D0%B0%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%B5-%D1%82%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%82%D0%B8%D0%BB%D0%B8%D1%81%D1%8C. 
+2023-08-21 00:20:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-21 00:20:34 [book_24] INFO: Паук завершил работу успешно
+2023-08-21 00:20:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5904,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 16831,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 11.840339,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 20, 14, 20, 34, 545448),
+ 'httpcompression/response_bytes': 55971,
+ 'httpcompression/response_count': 1,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65007616,
+ 'memusage/startup': 65007616,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2023, 8, 20, 14, 20, 22, 705109),
+ 'urllength/request_ignored_count': 1}
+2023-08-21 00:20:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-21 00:21:16 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-21 00:21:16 [scrapy.extensions.telnet] INFO: Telnet Password: 70cccbc73b2ec59c
+2023-08-21 00:21:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-21 00:21:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-21 00:21:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-21 00:21:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-21 00:21:17 [scrapy.core.engine] INFO: Spider opened
+2023-08-21 00:21:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-21 00:21:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-21 00:21:24 [scrapy.spidermiddlewares.urllength] INFO: Ignoring link (url length > 2083): https://book24.ru/search/?q=%D0%AD%D1%82%D0%BE%20%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B2%D0%B7%D1%80%D0%BE%D1%81%D0%BB%D1%8B%D1%85%20%D0%B8%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9%20%D1%81%D1%82%D0%B0%D1%80%D1%88%D0%B5%D0%B3%D0%BE%20%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B0%20%D1%81%20%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%D0%B8%20%D1%83%D0%B7%D0%BE%D1%80%D0%B0%D0%BC%D0%B8,%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%D0%B8%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8%20%D0%B8%20%D0%B8%D0%B3%D1%80%D0%B0%D0%BC%D0%B8.%20%D0%9E%D0%BD%D0%B0%20%D0%B2%D1%81%D1%8F%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%20%D0%B8%D0%B7%20%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%B8%D0%BA%D0%BE%D0%B2,%20%D0%BA%D1%80%D1%83%D0%B6%D0%BE%D1%87%D0%BA%D0%BE%D0%B2%20%D0%B8%20%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%87%D0%BA%D0%BE%D0%B2,%20%D0%BF%D0%BE%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5%20%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B5%D0%BC%D1%91%D1%81%D0%BB%D0%B0.%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0%20%D0%BF%D0%BE%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%20%D0%B2%D0%B0%D0%BC%20%D0%BD%D0%B0%D1%83%D1%87%D0%B8%D1%82%D1%8C%D1%81%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C%20%D1%81%20%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%BC,%20%D1%87%D1%83%D0%B2%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%D1%84%D0%BE%D1%80%D0%BC%D1%83%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8E.%20%D0%9E%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%BB%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D1%85%20%D0%B8%20%D1%81%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D1%85%20%D1%83%D0%B7%D0%BE%D1%80%D0%BE%D0%B2%20%D0%B8%20%D0%BE%D1%80%D0%BD%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B8%D0%B7%20%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%84%D0%B8%D0%B3%D1%83%D1%80,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D1%80%D0%B0%D1%81%D0%BA%D1%80%D0%B0%D1%88%D0%B8%D0%B2%D0%B0%D1%82%D1%8C%20%D1%87%D0%B0%D1%81%D0%B0%D0%BC%D0%B8%20%D0%BD%D0%B0%D0%BF%D1%80%D0%BE%D0%BB%D1%91%D1%82.%20%D0%97%D0%B4%D0%B5%D1%81%D1%8C%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D1%8B%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8%20%D1%83%D0%BC%D0%B0,%20%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D0%B7%D0%B8%D0%B8%20%D0%B8%20%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8.%D0%A2%D0%B0%D0%BA%D0%B6%D0%B5%20%D0%B5%D1%81%D1%82%D1%8C%20%D0%BB%D1%8E%D0%B1%D0%B8%D0%BC%D1%8B%D0%B5%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D0%B8%D0%B3%D1%80%D1%8B,%20%D0%B2%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C%20%D0%B2%D0%B4%D0%B2%D0%BE%D1%91%D0%BC.%20%D0%9D%D0%B5%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20%D1%83%D0%B7%D0%BE%D1%80%D0%BE%D0%B2%20%D1%83%D0%B6%D0%B5%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B0%D1%88%D0%B5%D0%BD%D1%8B%20%D0%B1%D0%BB%D0%B5%D1%81%D1%82%D1%8F%D1%89%D0%B5%D0%B9%20%D0%BA%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%B9,%20%D0%BF%D0%BE%D1%8D%D1%82%D0%BE%D0%BC%D1%83%20%D1%80%D0%B0%D0%B7%D1%83%D0%BA%D1%80%D0%B0%D1%88%D0%B8%D0%B2%D0%B0%D1%82%D1%8C%20%D0%B8%D1%85%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%B5%D1%89%D1%91%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BD%D0%B5%D0%B5%20%D0%B8%20%D1%83%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B5%D0%B5,%20%D0%B0%20%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%83%D0%B7%D0%BE%D1%80%20%D1%81%D1%82%D0%B0%D0%BD%D0%B5%D1%82%20%D0%B5%D1%89%D1%91%20%D0%BB%D1%83%D1%87%D1%88%D0%B5! 
+2023-08-21 00:21:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-21 00:21:24 [book_24] INFO: Паук завершил работу успешно
+2023-08-21 00:21:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10631,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 57094,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 6.992119,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 20, 14, 21, 24, 79065),
+ 'httpcompression/response_bytes': 187800,
+ 'httpcompression/response_count': 3,
+ 'log_count/INFO': 12,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 65347584,
+ 'memusage/startup': 65347584,
+ 'request_depth_max': 2,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2023, 8, 20, 14, 21, 17, 86946),
+ 'urllength/request_ignored_count': 1}
+2023-08-21 00:21:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2023-08-21 00:28:44 [py.warnings] WARNING: /home/neko/Desktop/task_manage_test/scrapy/venv/lib/python3.11/site-packages/scrapy/utils/request.py:248: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-08-21 00:28:44 [scrapy.extensions.telnet] INFO: Telnet Password: 501fec86fd8f2386
+2023-08-21 00:28:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2023-08-21 00:28:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-08-21 00:28:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-08-21 00:28:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2023-08-21 00:28:44 [scrapy.core.engine] INFO: Spider opened
+2023-08-21 00:28:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-08-21 00:28:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-08-21 00:28:50 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-08-21 00:28:50 [book_24] INFO: Паук завершил работу успешно
+2023-08-21 00:28:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 12357,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 117793,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 6,
+ 'elapsed_time_seconds': 5.999546,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 8, 20, 14, 28, 50, 603601),
+ 'httpcompression/response_bytes': 387921,
+ 'httpcompression/response_count': 6,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 64970752,
+ 'memusage/startup': 64970752,
+ 'request_depth_max': 3,
+ 'response_received_count': 6,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 8, 20, 14, 28, 44, 604055)}
+2023-08-21 00:28:50 [scrapy.core.engine] INFO: Spider closed (finished)
