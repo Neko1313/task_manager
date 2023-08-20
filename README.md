@@ -49,5 +49,36 @@ npm start
 - statistics - Создание графиков - :8004
 - working_data - Сохранение промежуточных данных - :8003
 
+# Доболнительно
+Графики сейчас хранять в bytea в postgresql 
+В таблицы :
+```
+CREATE TABLE AccessDates (
+    id SERIAL PRIMARY KEY,
+    chart BYTEA NOT NULL,
+    access_date TIMESTAMP NOT NULL
+);
+```
 
+Что бы поднять postgresql с той же конфигурацией что у меня прикладываю файл docker-compose.yml
+```
+docker-compose up
+```
+Скрипт python 
+```
+import psycopg2
+create_table_query = """
+CREATE TABLE AccessDates (
+    id SERIAL PRIMARY KEY,
+    chart BYTEA NOT NULL,
+    access_date TIMESTAMP NOT NULL
+);
+"""
+connection = psycopg2.connect(database="mydb", user="neko", password="1313", host="localhost", port="5432")
+cursor = connection.cursor()
+cursor.execute(create_table_query)
+connection.commit()
+cursor.close()
+connection.close()
+```
 
