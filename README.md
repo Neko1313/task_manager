@@ -81,4 +81,4 @@ connection.commit()
 cursor.close()
 connection.close()
 ```
-
+[Ссылка на документацию по api](./documentation.md)
