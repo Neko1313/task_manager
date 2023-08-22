@@ -1,4 +1,4 @@
-# API для системы пауков по модулям
+# API для системы пауков по модулям :shipit:
 ## new_photo
 + `POST` localhost:5000/api/new_photo/gen 
     - формат json который передается {"isbn" : "link_cover_with_other_site"}
