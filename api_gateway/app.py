@@ -92,5 +92,24 @@ def working_data_add_graph():
         print(f"Error while processing file: {e}")
         return jsonify({'error': 'Internal server error'}), 500
 
+@app.route('/api/scrapy/scrapy_new_spider/<path:path>', methods=['POST'])
+def scrapy_new_spider(path):
+    if 'file' not in request.files:
+        return jsonify({'error': 'No file part'}), 400
+
+    file = request.files['file']
+    if file.filename == '':
+        return jsonify({'error': 'No selected file'}), 400
+
+    try:
+        url = f"http://localhost:8002/scrapy_new_spider/{path}"
+        files = {'file': (file.filename, file)}
+        response = requests.post(url, files=files)
+        return jsonify(response.json()), response.status_code
+
+    except Exception as e:
+        print(f"Error while processing file: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)

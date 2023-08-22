@@ -3,6 +3,7 @@ import asyncio
 import aiosqlite
 import subprocess
 import json
+import io
 
 app = Quart(__name__)
 
@@ -83,6 +84,56 @@ async def configuration_des():
             data = json.load(json_file)
         
         return jsonify(data)
+    
+@app.route('/scrapy_new_spider/<path:path>', methods=['POST'])
+async def add_spider(path):
+    if request.method == 'POST':
+        if path == "photo":
+            if 'file' not in (await request.files):
+                return jsonify({'error': 'No file part'}), 400
+
+            file = (await request.files)['file']
+            if file.filename == '':
+                return jsonify({'error': 'No selected file'}), 400
+            
+            file_contents = file.read()
+            uploaded_filename = file.filename
+            with open(f'./photo/{uploaded_filename}', 'wb') as file:
+                file.write(file_contents)
+                        
+            with open('./photo/queue.json', 'r') as file:
+                data = json.load(file)
+
+            data.append(uploaded_filename.split(".")[0])
+            
+            with open('./photo/queue.json', 'w') as file:
+                json.dump(data, file, indent=4)
+            
+            return jsonify({"spider_queue" : "ok"})
+            
+        elif path == "des":
+            if 'file' not in (await request.files):
+                return jsonify({'error': 'No file part'}), 400
+
+            file = (await request.files)['file']
+            if file.filename == '':
+                return jsonify({'error': 'No selected file'}), 400
+            
+            file_contents = file.read()
+            uploaded_filename = file.filename
+            with open(f'./des/{uploaded_filename}', 'wb') as file:
+                file.write(file_contents)
+                        
+            with open('./des/queue.json', 'r') as file:
+                data = json.load(file)
+
+            data.append(uploaded_filename.split(".")[0])
+            
+            with open('./des/queue.json', 'w') as file:
+                json.dump(data, file, indent=4)
+            
+            return jsonify({"spider_queue" : "ok"})
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8002)
