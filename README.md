@@ -35,10 +35,16 @@ CREATE TABLE AccessDates (
 ### 1. :one: Первое
     - `194.58.104.214`
     - `root`
-    - ```J$@F+*Ep*j3y```
+    - 
+    ```
+    J$@F+*Ep*j3y
+    ```
 ### 2. :two: Второе
     - `194.58.121.225`
     - `root`
-    - ```iTciJg4A4qz?```
+    - 
+    ```
+    iTciJg4A4qz?
+    ```
 
 [Ссылка на документацию по api](./documentation.md)
