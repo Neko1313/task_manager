@@ -1,44 +1,11 @@
 # Запуск 
-В каждой папки кроме graph есть фаил requirements.txt переходим в каждую папку создаем вертуальное окружение 
-## Бэк
-1. Передите в модуль: 
+Всё уже настроено нужно только запустить docker-compose для этого поочередно вводем команды
 ```
-cd api_gateway
+docker-compose build
 ```
-2. Создайте вертальное окружение: 
+И 
 ```
-python -m venv venv
-```
-3. Активируйте его: 
-3.1 Linux и macOC: 
-```
-source venv/bin/activate
-```
-3.2 Windows : 
-```
-venv\Scripts\activate
-```
-4. Установите библиотеки : 
-```
-pip install -r requirements.txt
-```
-5. Запуск : 
-```
-python app.py
-```
-
-## Фронт
-1. Передите в модуль: 
-```
-cd graph
-```
-2. Установка зависимостей: 
-```
-npm install
-```
-3. Запуск: 
-```
-npm start
+docker-compose up
 ```
 
 # Описание модулей
@@ -59,26 +26,19 @@ CREATE TABLE AccessDates (
     access_date TIMESTAMP NOT NULL
 );
 ```
+# Временые сервера
+## Распределитель 
+- `151.248.123.92`
+- `root`
+- ```3ctoN*L-JY!P```
+## Храннища
+### 1. :one: Первое
+    - `194.58.104.214`
+    - `root`
+    - ```J$@F+*Ep*j3y```
+### 2. :two: Второе
+    - `194.58.121.225`
+    - `root`
+    - ```iTciJg4A4qz?```
 
-Что бы поднять postgresql с той же конфигурацией что у меня прикладываю файл docker-compose.yml
-```
-docker-compose up
-```
-Скрипт `python`
-```Python
-import psycopg2
-create_table_query = """
-CREATE TABLE AccessDates (
-    id SERIAL PRIMARY KEY,
-    chart BYTEA NOT NULL,
-    access_date TIMESTAMP NOT NULL
-);
-"""
-connection = psycopg2.connect(database="mydb", user="neko", password="1313", host="localhost", port="5432")
-cursor = connection.cursor()
-cursor.execute(create_table_query)
-connection.commit()
-cursor.close()
-connection.close()
-```
 [Ссылка на документацию по api](./documentation.md)

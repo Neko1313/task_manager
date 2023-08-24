@@ -9,7 +9,7 @@ app = Quart(__name__)
 @app.route('/static_all', methods=['GET'])
 async def static_all():
     if request.method == 'GET':
-        data = req.get("http://127.0.0.1:5000/api/working_data/get_all_data").json()
+        data = req.get("http://api_gateway:5000/api/working_data/get_all_data").json()
         df = pd.DataFrame(data['data'], columns=data['column_names'])
         df = df.replace(0, None)
         
@@ -29,7 +29,7 @@ async def static_all():
         
         # Создайте объект мультипартового запроса и добавьте файл
         files = {'file': ('graph.png', image_buffer.getvalue(), 'image/png')}
-        req.post("http://127.0.0.1:5000/api/working_data/add_graph", files=files)
+        req.post("http://api_gateway:5000/api/working_data/add_graph", files=files)
         
         return jsonify({"ok": "200"}), 200
 

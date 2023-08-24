@@ -52,8 +52,8 @@ async def parse_xls():
         conn = sqlite3.connect('intermediate.db')
         df.to_sql('Books', conn, if_exists='append', index=False)
         conn.close()
-        req.post("http://127.0.0.1:5000/api/scrapy/photo", json=df['isbn'].tolist())
-        req.post("http://127.0.0.1:5000/api/scrapy/des", json=df.loc[df['description'].isnull(), 'isbn'].tolist())
+        req.post("http://api_gateway:5000/api/scrapy/photo", json=df['isbn'].tolist())
+        req.post("http://api_gateway:5000/api/scrapy/des", json=df.loc[df['description'].isnull(), 'isbn'].tolist())
         
         return jsonify({"ok": "200"}), 200
 
@@ -110,7 +110,7 @@ async def add_graph():
             return jsonify({'error': 'No selected file'}), 400
         
         image_data = file.read()
-        conn = psycopg2.connect(database="mydb", user="neko", password="1313", host="localhost", port="5432")
+        conn = psycopg2.connect(database="mydb", user="neko", password="1313", host="postgres", port="5432")
         cur = conn.cursor()
         
         current_time = datetime.now()
@@ -124,7 +124,7 @@ async def add_graph():
 @app.route('/get_graph_data', methods=['GET'])
 def get_graph_data():
     try:
-        conn = psycopg2.connect(database="mydb", user="neko", password="1313", host="localhost", port="5432")
+        conn = psycopg2.connect(database="mydb", user="neko", password="1313", host="postgres", port="5432")
         cur = conn.cursor()
 
         start_date = request.args.get('start')

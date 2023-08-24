@@ -39,7 +39,7 @@ class Bookmix(scrapy.Spider):
             item[self.isbn_list[isnb][1]] = response.css('img::attr(src)').getall()[1]
             cursor.execute("DELETE FROM task WHERE id=?", (self.isbn_list[isnb][0],))
             conn.commit()
-            req.post("http://127.0.0.1:5000/parse", json=item)
+            req.post("http://api_gateway:5000/parse", json=item)
             
         else:
             pass
@@ -64,7 +64,7 @@ class Bookmix(scrapy.Spider):
             if len(queue) > self.argument:
                 subprocess.Popen(["python", f"./photo/{queue[self.argument]}.py", f"{self.argument}"], shell=False)
             else:
-                req.get("http://127.0.0.1:5000/api/statistics/static_all")
+                req.get("http://api_gateway:5000/api/statistics/static_all")
             
         else:
             self.logger.warning("Паук завершил работу с ошибкой: %s", reason)

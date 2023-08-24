@@ -5,10 +5,10 @@ import requests
 app = Flask(__name__)
 
 SERVICES = {
-    'scrapy': 'http://localhost:8002',
-    'new_photo': 'http://localhost:8001',
-    "working_data" : "http://localhost:8003",
-    "statistics" : "http://localhost:8004"
+    'scrapy': 'http://scrapy:8002',
+    'new_photo': 'http://new_photo:8001',
+    "working_data" : "http://working_data:8003",
+    "statistics" : "http://statistics:8004"
 }
 
 @app.after_request
@@ -64,7 +64,7 @@ def upload():
         return jsonify({'error': 'No selected file'}), 400
 
     try:
-        url = "http://localhost:8003/parse_xls"
+        url = "http://working_data:8003/parse_xls"
         files = {'file': (file.filename, file)}
         response = requests.post(url, files=files)
         return jsonify(response.json()), response.status_code
@@ -83,7 +83,7 @@ def working_data_add_graph():
         return jsonify({'error': 'No selected file'}), 400
 
     try:
-        url = "http://localhost:8003/add_graph"
+        url = "http://working_data:8003/add_graph"
         files = {'file': (file.filename, file)}
         response = requests.post(url, files=files)
         return jsonify(response.json()), response.status_code
@@ -102,7 +102,7 @@ def scrapy_new_spider(path):
         return jsonify({'error': 'No selected file'}), 400
 
     try:
-        url = f"http://localhost:8002/scrapy_new_spider/{path}"
+        url = f"http://scrapy:8002/scrapy_new_spider/{path}"
         files = {'file': (file.filename, file)}
         response = requests.post(url, files=files)
         return jsonify(response.json()), response.status_code

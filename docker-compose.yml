@@ -11,6 +11,63 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  
+  api_gateway:
+    build:
+      context: ./api_gateway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+  
+  new_photo:
+    build:
+      context: ./new_photo
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    depends_on:
+      - postgres
+      - api_gateway
+
+  scrapy:
+    build:
+      context: ./scrapy
+      dockerfile: Dockerfile
+    ports:
+      - "8002:8002"
+    depends_on:
+      - postgres
+      - api_gateway
+
+  statistics:
+    build:
+      context: ./statistics
+      dockerfile: Dockerfile
+    ports:
+      - "8004:8004"
+    depends_on:
+      - postgres
+      - api_gateway
+
+  working_data:
+    build:
+      context: ./working_data
+      dockerfile: Dockerfile
+    ports:
+      - "8003:8003"
+    depends_on:
+      - postgres
+      - api_gateway
+
+  graph:
+    build:
+      context: ./graph
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
 
 volumes:
   postgres_data:

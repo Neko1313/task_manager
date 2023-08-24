@@ -21,7 +21,7 @@ function GraphSlider() {
       const startDate = selectedDates[0].toISOString();
       const endDate = selectedDates[1].toISOString();
 
-      axios.get(`http://127.0.0.1:5000/api/working_data/get_graph_data?start=${startDate}&end=${endDate}`)
+      axios.get(`http://localhost:5000/api/working_data/get_graph_data?start=${startDate}&end=${endDate}`)
         .then(response => {
           setGraphData(response.data);
         })

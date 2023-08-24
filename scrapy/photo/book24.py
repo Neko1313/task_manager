@@ -75,7 +75,7 @@ class Book24(scrapy.Spider):
         item[self.isbn_list[isnb][1]] = "https:" + response.css("img.product-poster__main-image::attr(src)").get()
         cursor.execute("DELETE FROM task WHERE id=?", (self.isbn_list[isnb][0],))
         conn.commit()
-        req.post("http://127.0.0.1:5000/parse", json=item)
+        req.post("http://api_gateway:5000/parse", json=item)
     
     def closed(self, reason):
         if reason == 'finished':
@@ -89,7 +89,7 @@ class Book24(scrapy.Spider):
             if len(queue) > self.argument:
                 subprocess.Popen(["python", f"./photo/{queue[self.argument]}.py", f"{self.argument}"], shell=False)
             else:
-                req.get("http://127.0.0.1:5000/api/statistics/static_all")
+                req.get("http://api_gateway:5000/api/statistics/static_all")
             
         else:
             self.logger.warning("Паук завершил работу с ошибкой: %s", reason)

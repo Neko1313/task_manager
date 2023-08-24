@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use("Agg")  
 import cv2
 import numpy as np
 
@@ -7,6 +9,7 @@ import sys
 import ast
 import logging
 import requests as req
+import paramiko
 
 
 def scale_and_save_image(image_url, target_size, output_folder):
@@ -27,14 +30,32 @@ def scale_and_save_image(image_url, target_size, output_folder):
 		canvas[y_offset:y_offset + scaled_image.shape[0], x_offset:x_offset + scaled_image.shape[1]] = scaled_image
 
 		folder_path = os.path.join(output_folder, f"{target_size[0]}x{target_size[1]}")
-		if not os.path.exists(folder_path):
-			os.makedirs(folder_path)
 
-		output_filename = os.path.join(folder_path, f"{isbn}.jpg")
-		cv2.imwrite(output_filename, canvas)
-		req.post("http://127.0.0.1:5000/api/working_data/photo_found", json={f"{isbn}" : f"{output_filename}"})
+
+		remote_image_path = os.path.join(folder_path, f"{isbn}.jpg")
+		image_bytes = cv2.imencode('.jpg', canvas)[1].tobytes()
   
-		logging.info(f"Изображение {image_url} успешно масштабировано и сохранено как {output_filename}")
+		ssh_client_1 = paramiko.SSHClient()
+		ssh_client_1.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+		ssh_client_1.connect("194.58.104.214", 22, "root", "J$@F+*Ep*j3y")
+		sftp_1 = ssh_client_1.open_sftp()
+		with sftp_1.file(remote_image_path, 'wb') as remote_file:
+			remote_file.write(image_bytes)
+		sftp_1.close()
+		ssh_client_1.close()
+
+		ssh_client_2 = paramiko.SSHClient()
+		ssh_client_2.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+		ssh_client_2.connect("194.58.121.225", 22, "root", "iTciJg4A4qz?")
+		sftp_2 = ssh_client_2.open_sftp()
+		with sftp_2.file(remote_image_path, 'wb') as remote_file:
+			remote_file.write(image_bytes)
+		sftp_2.close()
+		ssh_client_2.close()
+
+		req.post("http://api_gateway:5000/api/working_data/photo_found", json={f"{isbn}" : f"{remote_image_path}"})
+  
+		logging.info(f"Изображение {image_url} успешно масштабировано и сохранено как {remote_image_path}")
 	except Exception as e:
 		logging.error(f"Произошла ошибка: {e} - Изображение: {image_url}")
 
@@ -44,9 +65,7 @@ if __name__ == "__main__":
         isbn_image_dict = ast.literal_eval(sys.argv[1])
         if isinstance(isbn_image_dict, dict):
             target_sizes = [(120,83), (520,322), (300,186), (289,184), (468,290)]
-            output_folder = "scaled_images"
-            if not os.path.exists(output_folder):
-                os.makedirs(output_folder)
+            output_folder = "/home/cover"
             for isbn, image_url in isbn_image_dict.items():
                 for target_size in target_sizes:
                     scale_and_save_image(image_url, target_size, output_folder)

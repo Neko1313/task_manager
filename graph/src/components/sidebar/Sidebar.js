@@ -29,7 +29,7 @@ const Sidebar = () => {
   
       try {
         const response = await axios.post(
-          'http://127.0.0.1:5000/api/working_data/parse_xls',
+          'http://localhost:5000/api/working_data/parse_xls',
           formData,
           {
             headers: {

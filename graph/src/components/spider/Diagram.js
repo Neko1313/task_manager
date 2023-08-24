@@ -30,7 +30,7 @@ const Diagram = () => {
   
       try {
         const response = await axios.post(
-          'http://127.0.0.1:5000/api/scrapy/scrapy_new_spider/photo',
+          'http://localhost:5000/api/scrapy/scrapy_new_spider/photo',
           formData,
           {
             headers: {

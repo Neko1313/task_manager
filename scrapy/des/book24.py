@@ -121,7 +121,7 @@ class Book24(scrapy.Spider):
         item[self.isbn_list[isnb][1]] = "\n".join(response.css("div#product-about p::text").getall())
         cursor.execute("DELETE FROM task WHERE id=?", (self.isbn_list[isnb][0],))
         conn.commit()
-        req.post("http://127.0.0.1:5000/api/working_data/photo_des", json=item)
+        req.post("http://localhost:5000/api/working_data/photo_des", json=item)
         
     def closed(self, reason):
         if reason == 'finished':

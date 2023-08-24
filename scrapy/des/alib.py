@@ -35,7 +35,7 @@ class Alib(scrapy.Spider):
         item[self.isbn_list[isnb][1]] = response.css('h3+ p').get()
         cursor.execute("DELETE FROM task WHERE id=?", (self.isbn_list[isnb][0],))
         conn.commit()
-        req.post("http://127.0.0.1:5000/api/working_data/photo_des", json=item)
+        req.post("http://localhost:5000/api/working_data/photo_des", json=item)
         
         self.page_count += 1
         if self.page_count < len(self.isbn_list):
